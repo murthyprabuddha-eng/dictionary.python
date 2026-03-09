@@ -18,5 +18,22 @@ print(cricket)#{'virat': 'batsman', 'dhoni': 'captain', 'sachin': ('GOAT',)}
 '''cricket.clear() 
 print(cricket)''' #clear() is used delete entire dictionary list
 
+''' making list of dictionary and printing'''
+
+item1={
+    "name":"coke",
+    "quantity":1,
+    "price":40,
+}
+
+item2={
+    "name":"cake",
+    "quantity":4,
+    "price":160,
+}
+items=[item1,item2]
+print(items)
+
+print(item1["price"]+item2["price"])#op:200
 
 
